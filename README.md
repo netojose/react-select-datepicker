@@ -4,12 +4,12 @@
 ### Via npm
 ```bash
 # npm
-npm install --save netojose@react-select-datepicker
+npm install --save @netojose/react-select-datepicker
 ```
 ### Via yarn
 ```bash
 # yarn
-yarn add netojose@react-select-datepicker
+yarn add @netojose/react-select-datepicker
 ```
 
 ## Demo
@@ -18,7 +18,7 @@ You can see a working demo at this [Sandbox](https://codesandbox.io/s/select-dat
 ## Usage
 ```jsx
 import React, { useState } from "react";
-import SelectDatePicker from "netojose@react-select-datepicker";
+import SelectDatePicker from "@netojose/react-select-datepicker";
 
 export default function App() {
   const [date, setDate] = useState(new Date(2000, 0, 1));
