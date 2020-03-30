@@ -1,0 +1,57 @@
+{
+    "name": "@netojose/react-select-datepicker",
+    "version": "1.0.0",
+    "description": "A lightweight select date picker",
+    "main": "./dist/index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/netojose/react-select-datepicker.git"
+    },
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "homepage": "https://github.com/netojose/react-select-datepicker",
+    "bugs": "https://github.com/netojose/react-select-datepicker/issues",
+    "author": {
+        "name": "José neto",
+        "email": "sputinykster@gmail.com"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-react": "^7.9.4",
+        "babel-jest": "^25.2.3",
+        "babel-loader": "^8.1.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "jest": "^25.2.3",
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {},
+    "tags": [
+        "react",
+        "react-component",
+        "select",
+        "date-picker",
+        "datepicker"
+    ],
+    "keywords": [
+        "react",
+        "react-component",
+        "select",
+        "date-picker",
+        "datepicker"
+    ]
+}
