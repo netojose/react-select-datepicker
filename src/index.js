@@ -103,20 +103,21 @@ export default ({
 
   return (
     <div className={cls} css={css}>
-      {fields.map(field => (
-        <Field
-          key={field}
-          items={options[field]}
-          label={labels[field]}
-          showLabel={showLabels}
-          value={values[field]}
-          onChange={handleChange}
-          name={field}
-          renderOption={field === "day" ? v => dayPad(v) : null}
-          generateValue={field === "month" ? (_, index) => index : null}
-        />
-      ))}
-
+      <div>
+        {fields.map(field => (
+            <Field
+            key={field}
+            items={options[field]}
+            label={labels[field]}
+            showLabel={showLabels}
+            value={values[field]}
+            onChange={handleChange}
+            name={field}
+            renderOption={field === "day" ? v => dayPad(v) : null}
+            generateValue={field === "month" ? (_, index) => index : null}
+            />
+        ))}
+      </div>
       {validationError && showErrors && <p>{errors[validationError]}</p>}
     </div>
   );
